@@ -24,6 +24,33 @@
             margin: 0 auto;
             padding: 0 20px;
         }
+
+        /* Ad Containers */
+        .ad-container {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+            min-height: 90px;
+        }
+
+        .ad-container-footer {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+            min-height: 50px;
+        }
+
+        .social-bar-container {
+            position: fixed;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 99;
+        }
         
         /* Header & Navigation */
         header {
@@ -223,6 +250,34 @@
             color: #666;
         }
         
+        /* Learn More Section */
+        .learn-more {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 40px;
+            margin-bottom: 60px;
+        }
+        
+        .learn-more h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .learn-more-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .learn-more-content h3 {
+            color: #27ae60;
+            margin: 20px 0 10px;
+        }
+        
+        .learn-more-content p {
+            margin-bottom: 15px;
+            line-height: 1.7;
+        }
+        
         /* Footer */
         footer {
             background-color: #f9f9f9;
@@ -278,6 +333,10 @@
             .stats-container {
                 grid-template-columns: 1fr 1fr;
             }
+
+            .social-bar-container {
+                display: none;
+            }
         }
         
         @media (max-width: 480px) {
@@ -298,6 +357,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!-- Header Ad (Native Banner) -->
+    <div class="ad-container">
+        <script async="async" data-cfasync="false" src="//pl26716660.profitableratecpm.com/1bd921e4eac7061b2dca891f7d6ed179/invoke.js"></script>
+        <div id="container-1bd921e4eac7061b2dca891f7d6ed179"></div>
+    </div>
+
     <header>
         <div class="container">
             <nav>
@@ -306,6 +371,7 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#counter">Counter</a></li>
                     <li><a href="#features">Features</a></li>
+                    <li><a href="#learn-more">Learn More</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -353,6 +419,22 @@
             </div>
         </div>
     </section>
+
+    <!-- Middle Banner Ad (320×50) -->
+    <div class="container">
+        <div class="ad-container">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : '2304ba093d30763a388f85a38bf67876',
+                    'format' : 'iframe',
+                    'height' : 50,
+                    'width' : 320,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/2304ba093d30763a388f85a38bf67876/invoke.js"></script>
+        </div>
+    </div>
     
     <section class="container" id="features">
         <h2 style="text-align: center; margin-bottom: 40px;">Why Use Our Word Counter</h2>
@@ -375,12 +457,34 @@
         </div>
     </section>
     
+    <section class="container learn-more" id="learn-more">
+        <h2>Learn More About Word Counting</h2>
+        <div class="learn-more-content">
+            <h3>Why Word Count Matters</h3>
+            <p>Word count is an essential metric for writers, students, and professionals across various fields. Whether you're writing an essay with a strict word limit, crafting content for SEO purposes, or preparing a speech, knowing your word count helps you communicate effectively within given constraints.</p>
+            
+            <h3>How We Calculate Word Count</h3>
+            <p>Our word counter uses advanced algorithms to accurately count words by splitting text at whitespace boundaries. We handle various edge cases like hyphenated words, contractions, and special characters to provide you with the most precise count possible.</p>
+            
+            <h3>Understanding Character Count</h3>
+            <p>Character count includes every single character in your text - letters, numbers, spaces, and punctuation. This is particularly important for social media posts with character limits (like Twitter), meta descriptions for SEO, or when working with technical constraints in programming and databases.</p>
+            
+            <h3>The Science Behind Reading Time</h3>
+            <p>Our reading time calculation is based on average adult reading speed of 200 words per minute. This helps content creators estimate how long it will take readers to consume their material, which is valuable for blog posts, articles, and online content where attention spans matter.</p>
+            
+            <h3>Practical Applications</h3>
+            <p>Word counting tools are used by students to meet assignment requirements, journalists to fit column inches, authors to track writing progress, marketers to optimize web content, and professionals preparing reports or presentations. Our tool helps all these users work more efficiently.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer id="contact">
         <div class="container">
             <ul class="footer-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#counter">Counter</a></li>
                 <li><a href="#features">Features</a></li>
+                <li><a href="#learn-more">Learn More</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#">Privacy Policy</a></li>
@@ -389,6 +493,11 @@
             <p class="copyright">© 2023 WordCounter. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Popunder Ads -->
+    <div class="social-bar-container">
+        <script type='text/javascript' src='//pl26738193.profitableratecpm.com/14/73/ea/1473eaf8f925b2bd8f230efc9e259fd6.js'></script>
+    </div>
     
     <script>
         // DOM Elements
